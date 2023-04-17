@@ -36,10 +36,18 @@ h1 {
 }
 
 h2 {
+  font-weight: 400;
   font-size: 1.28rem;
   line-height: 1.2;
   color: #F3BF99;
   padding-top: .1em;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #F5F5F5;
 }
 
 .info--website {
@@ -61,6 +69,12 @@ h2 {
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 1.14;
+}
+
+.about--text, .interests--text {
+  font-size: 1.024rem;
+  line-height: 1.5;
+  color: #DCDCDC;
 }
 
 /* CONTAINER */
@@ -121,5 +135,37 @@ h2 {
   background: #5093E2;
 }
 
-/* ABOUT */
+/* ABOUT & INTERESTS */
 
+.about {
+  padding-bottom: 1.4em;
+}
+
+.about, .interests {
+  display: block;
+  width: 247px;
+  margin: 0 auto;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  height: 64px;
+  width: 100%;
+  background: #161619;
+  padding: 0 7.3em;
+}
+
+.footer--icons i {
+  color: #918E9B;
+  font-size: 25px;
+}
+
+.footer--icons i:hover, .footer--icons i:focus {
+  opacity: 80%;
+}

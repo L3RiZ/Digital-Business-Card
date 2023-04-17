@@ -2,7 +2,10 @@ import React from 'react'
 
 function Interests(){
     return (
-        <h1>Interests Section</h1>
+        <section className="interests">
+            <h3>Interests</h3>
+            <p className="interests--text">Ice Tea expert. Student of Economics. Handelsblatt Reader. Internet fanatic. HipHop enjoyer. Gummy bear fanatic.</p>
+        </section>
     )
 }
 

@@ -159,6 +159,7 @@ footer {
   width: 100%;
   background: #161619;
   padding: 0 7.3em;
+  border-radius: 0px 0px 10px 10px;
 }
 
 .footer--icons i {
